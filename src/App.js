@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import Game from './pages/Game';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return  (
+  <div className="flex p-4 md:p-20 h-screen justify-center bg-repeat  items-center  bg-gradient-to-r from-rose-500 to-red-600">
+  <Game/>
+   </div>)
 }
 
 export default App;
